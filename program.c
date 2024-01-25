@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
 
+void flushConsole(){
+    printf("\033[2J\033[H");
+}
+
 int main(){
 
     int choice = 0;
